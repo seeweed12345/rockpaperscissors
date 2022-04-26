@@ -1,5 +1,4 @@
 let gameChoices = ["ROCK", "PAPER", "SCISSORS"];
-let score = [];
 let winningCount = 0;
 let losingCount = 0;
 function computerPlay() {
