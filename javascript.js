@@ -2,9 +2,7 @@ let gameChoices = ["ROCK", "PAPER", "SCISSORS"];
 let winningCount = 0;
 let losingCount = 0;
 function computerPlay() {
-  return gameChoices[
-    Math.floor(Math.random() * gameChoices.length)
-  ].toUpperCase();
+  return gameChoices[Math.floor(Math.random() * gameChoices.length)];
 }
 function playRound(playerSelection, computerSelection) {
   let choice = playerSelection.toUpperCase();
